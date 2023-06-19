@@ -1,36 +1,47 @@
-*{
+* {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-
 }
 
-.navbar{
-  position: relative;
+a {
+  cursor: pointer;
+}
+
+.navbar {
+  overflow: hidden;
   background-color: deepskyblue;
-  border-color: deepskyblue;
   width: 100%;
   height: auto;
   min-height: 3em;
 }
-
-.navbar button{
-  position: absolute;
+.navbar a {
+  float: left;
   background-color: deepskyblue;
-  border-color: deepskyblue;
+  padding: 14px 16px;
   height: 100%;
 }
+.navbar a:hover {
+  background-color: #00baf0;
+}
+.navbar a.onPage {
+  background-color: #0050bf;
+  color: white;
+}
 
-.head{
+.head {
   text-align: center;
-  
+  margin-top: 50px;
   height: auto;
   min-height: 150px;
   background-color: white;
-  color: black;
+  color: darkblue;
 }
 
-
-.page{
+.page {
   text-align: center;
-  background-color:deepskyblue;
+  background-color: deepskyblue;
+  height: auto;
+  min-height: fit-content;
 }
+
+/*# sourceMappingURL=index.css.map */
