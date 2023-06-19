@@ -1,0 +1,36 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+
+}
+
+.navbar{
+  position: relative;
+  background-color: deepskyblue;
+  border-color: deepskyblue;
+  width: 100%;
+  height: auto;
+  min-height: 3em;
+}
+
+.navbar button{
+  position: absolute;
+  background-color: deepskyblue;
+  border-color: deepskyblue;
+  height: 100%;
+}
+
+.head{
+  text-align: center;
+  
+  height: auto;
+  min-height: 150px;
+  background-color: white;
+  color: black;
+}
+
+
+.page{
+  text-align: center;
+  background-color:deepskyblue;
+}
