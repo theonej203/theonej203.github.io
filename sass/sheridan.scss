@@ -1,0 +1,36 @@
+@import 'index';
+
+
+a{
+  color: white;
+  &:visited{
+    color: white;
+  }
+}
+
+
+.navbar{
+  background-color: deepskyblue;
+
+  a{
+    &:hover{
+      background-color:#00baf0;
+    }
+
+    &.onPage{
+        background-color: #0050bf;
+        color: white;
+    }
+  }
+}
+
+.head{
+  background-color: white;
+  color:darkblue;
+}
+
+
+.page{
+  background-color:deepskyblue;
+}
+
