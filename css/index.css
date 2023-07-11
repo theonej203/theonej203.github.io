@@ -5,26 +5,31 @@
 
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: wheat;
+}
+a:visited {
+  color: wheat;
 }
 
 .navbar {
+  position: sticky;
   overflow: hidden;
-  background-color: deepskyblue;
+  background-color: black;
   width: 100%;
   height: auto;
   min-height: 3em;
 }
 .navbar a {
   float: left;
-  background-color: deepskyblue;
   padding: 14px 16px;
   height: 100%;
 }
 .navbar a:hover {
-  background-color: #00baf0;
+  background-color: #101010;
 }
 .navbar a.onPage {
-  background-color: #0050bf;
+  background-color: #202020;
   color: white;
 }
 
@@ -34,14 +39,33 @@ a {
   height: auto;
   min-height: 150px;
   background-color: white;
-  color: darkblue;
+  color: #000000;
 }
 
 .page {
   text-align: center;
-  background-color: deepskyblue;
+  background-color: #000000;
   height: auto;
   min-height: fit-content;
+  color: wheat;
+}
+
+.card {
+  width: auto;
+  max-width: 20%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card img {
+  width: 100%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=index.css.map */
