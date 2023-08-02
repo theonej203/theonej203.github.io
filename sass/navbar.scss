@@ -1,0 +1,32 @@
+.navbar{
+  
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  min-height: 3em;
+
+  img{
+    margin: 5px;
+    margin-top: 10px;
+    float: left;
+    max-width: 30px;
+  }
+
+  a{
+    float: right;
+    padding: 14px 16px;
+    height: 100%;
+
+    &:hover{
+      background-color:#101010;
+    }
+
+    &.onPage{
+      background-color: #202020;
+      color: white;
+    }
+  }
+}
