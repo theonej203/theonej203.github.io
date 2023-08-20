@@ -5,17 +5,19 @@
   background-color: black;
   width: 100%;
   height: auto;
-  min-height: 3em;
+  min-height: 3vh;
 }
 .navbar img {
-  margin: 5px;
-  margin-top: 10px;
   float: left;
-  max-width: 30px;
+  max-block-size: 2em;
+  min-block-size: 1em;
+  margin-top: 0.1em;
+  margin-left: 0.1em;
 }
 .navbar a {
+  margin-top: 1vh;
   float: right;
-  padding: 14px 16px;
+  padding: 1vh 1vw;
   height: 100%;
 }
 .navbar a:hover {
@@ -59,11 +61,16 @@ a:visited {
 }
 
 .page {
+  padding-top: 2em;
+  padding-bottom: 2em;
   text-align: center;
   background-color: #000000;
   height: auto;
   min-height: fit-content;
   color: wheat;
+}
+.page h1 {
+  color: white;
 }
 
 .contentBox {
@@ -71,15 +78,16 @@ a:visited {
   width: 50%;
   margin: auto;
   text-align: left;
-  color: white;
-}
-.contentBox div {
-  display: inline-block;
-  width: 40%;
+  /*
+  div{
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+  }
+  */
 }
 .contentBox .category {
   margin-right: 2%;
-  text-align: right;
   color: wheat;
 }
 .contentBox .info {

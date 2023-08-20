@@ -6,18 +6,21 @@
   background-color: black;
   width: 100%;
   height: auto;
-  min-height: 3em;
+  min-height: 3vh;
 
-  img{
-    margin: 5px;
-    margin-top: 10px;
+  img{    
     float: left;
-    max-width: 30px;
+    max-block-size: 2em;
+    min-block-size: 1em;
+    margin-top: 0.1em;
+    margin-left: 0.1em;
   }
 
   a{
+    margin-top: 1vh;
     float: right;
-    padding: 14px 16px;
+    padding: 1vh 1vw;
+    
     height: 100%;
 
     &:hover{
