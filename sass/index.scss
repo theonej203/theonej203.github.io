@@ -18,15 +18,21 @@ a{
   z-index: -1;
   position: fixed;
   text-align: center;
-  margin-top: 150px;
   width: 100%;
-  height: auto;
-  min-height: 200px;
+  height: 800px;
   background-color: white;
   color: #000000;
 
+  h1{
+    font-size: 20vw; 
+  }
+
+  h2{
+    font-size: 6vw;
+  }
   
 }
+
 
 .transparentFrame{
   background-color: transparent;
