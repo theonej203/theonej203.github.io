@@ -44,7 +44,6 @@ a{
 .page{
   padding-top: 2em;
   padding-bottom: 2em;
-  text-align: center;
   background-color:#000000;
   height: auto;
   min-height: fit-content;
@@ -52,32 +51,30 @@ a{
 
   h1{
     color: white;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 }
 
 .contentBox{
   
   min-width: 250px;
-  width: 50%;
-  margin: auto;
+  width: 100%;
   text-align: left;
   
-  
-  /*
-  div{
-    vertical-align: top;
-    display: inline-block;
-    width: 40%;
-  }
-  */
 
-  .category{
-    margin-right: 2%;
+  h2{
     color: wheat;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
   }
 
   .info{
-    margin-left: 2%;
+    h3{
+      text-align: center;
+      color: white;
+    }
   }
 
 }
