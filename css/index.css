@@ -92,6 +92,9 @@ a:visited {
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
+.page h3 {
+  color: white;
+}
 
 .contentBox {
   min-width: 250px;
