@@ -6,6 +6,7 @@
   color: wheat;
   width: 100%;
   height: 5vh;
+  overflow: visible;
 }
 .navbar img {
   height: 5vh;
@@ -102,6 +103,7 @@ a:visited {
   text-align: left;
 }
 .contentBox h2 {
+  padding-left: 1vh;
   color: wheat;
   margin-top: 2vh;
   margin-bottom: 2vh;
