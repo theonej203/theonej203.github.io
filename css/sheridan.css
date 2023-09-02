@@ -9,6 +9,7 @@
   overflow: visible;
 }
 .navbar img {
+  margin: 1px;
   height: 5vh;
   float: left;
   width: min-content;
