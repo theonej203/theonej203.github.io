@@ -18,6 +18,12 @@
   float: right;
   height: 5vh;
 }
+.navbar a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 0.9em;
+}
 .navbar a:hover {
   background-color: #101010;
 }
@@ -72,6 +78,12 @@ a:visited {
 }
 .head h2 {
   font-size: 6vw;
+}
+.head .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .transparentFrame {
