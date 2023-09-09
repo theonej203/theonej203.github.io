@@ -7,3 +7,5 @@ index: sass/index.scss
 
 sheridan: sass/sheridan.scss
 	sass sass/sheridan.scss css/sheridan.css
+
+	

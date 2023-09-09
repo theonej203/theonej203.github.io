@@ -24,13 +24,31 @@ a{
   }
 }
 
+
+.head{
+  background-image: url("../assets/sheridan_img.png");
+  h1{
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+    font-size: 6vh;
+  }
+
+  h2{
+    font-size: 3vh;
+  }
+}
+
 .head{
   background-color: white;
-  color:darkblue;
+  color:deepskyblue;
 }
 
 
 .page{
   background-color:deepskyblue;
+
+  *{
+    margin-left: 1vw;
+  }
 }
 
