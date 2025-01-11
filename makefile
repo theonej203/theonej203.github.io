@@ -12,4 +12,7 @@ sheridan: sass/sheridan.scss
 voyix: sass/voyix.scss
 	sass sass/voyix.scss css/voyix.css
 
+voyix: sass/jci.scss
+	sass sass/jci.scss css/jci.css
+
 	
