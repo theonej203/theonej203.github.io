@@ -10,7 +10,7 @@ a{
 
 
 .navbar{
-  background-color: #0554A3;
+  background-color: #29B582;
 
   a{
     &:hover{
@@ -18,7 +18,7 @@ a{
     }
 
     &.onPage{
-        background-color: #29B582;
+        background-color: #0554A3;
         color: white;
     }
   }
@@ -33,14 +33,14 @@ a{
   background-color: #000000;
   
   h1{
-    color: #0554A3;
+    color: #29B582;
     background-color: rgba(0, 0, 0, 0.61);
     backdrop-filter: blur(5px);
     font-size: 6vh;
   }
 
   h2{
-    color: #29B582;
+    color: #0554A3;
     font-size: 3vh;
   }
 
@@ -54,7 +54,7 @@ a{
 
 
 .page{
-  background-color:#29B582;
+  background-color:#0554A3;
 
   *{
     margin-left: 1vw;

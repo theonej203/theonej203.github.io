@@ -186,13 +186,13 @@ a:visited {
 }
 
 .navbar {
-  background-color: #0554A3;
+  background-color: #29B582;
 }
 .navbar a:hover {
   background-color: #0399CC;
 }
 .navbar a.onPage {
-  background-color: #29B582;
+  background-color: #0554A3;
   color: white;
 }
 
@@ -204,13 +204,13 @@ a:visited {
   background-color: #000000;
 }
 .head h1 {
-  color: #0554A3;
+  color: #29B582;
   background-color: rgba(0, 0, 0, 0.61);
   backdrop-filter: blur(5px);
   font-size: 6vh;
 }
 .head h2 {
-  color: #29B582;
+  color: #0554A3;
   font-size: 3vh;
 }
 
@@ -220,7 +220,7 @@ a:visited {
 }
 
 .page {
-  background-color: #29B582;
+  background-color: #0554A3;
 }
 .page * {
   margin-left: 1vw;
