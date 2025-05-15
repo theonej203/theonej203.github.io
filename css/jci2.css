@@ -1,0 +1,236 @@
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  background-color: black;
+  color: wheat;
+  width: 100%;
+  height: 7vh;
+  overflow: visible;
+}
+.navbar img {
+  margin: 1px;
+  height: 7vh;
+  float: left;
+  width: min-content;
+}
+.navbar div {
+  float: right;
+  height: 5vh;
+}
+.navbar a {
+  font-size: 2.4vh;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 0.9em;
+}
+.navbar a:hover {
+  background-color: #101010;
+}
+.navbar a.onPage {
+  background-color: #202020;
+  color: white;
+}
+
+.dropdown {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: wheat;
+}
+a:visited {
+  color: wheat;
+}
+
+.head {
+  z-index: -1;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  color: #000000;
+}
+.head h1 {
+  font-size: 12vw;
+}
+.head h2 {
+  font-size: 6vw;
+}
+.head .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.transparentFrame {
+  background-color: transparent;
+  width: 100%;
+  height: 800px;
+}
+
+.page {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #000000;
+  height: auto;
+  min-height: fit-content;
+  color: wheat;
+}
+.page h1 {
+  font-size: 7vh;
+  color: white;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.page h2 {
+  font-size: 6vh;
+}
+.page h3 {
+  font-size: 5vh;
+  color: white;
+  margin-bottom: 5vh;
+}
+.page p {
+  font-size: 4vh;
+  color: white;
+}
+.page ul {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+.page li {
+  font-size: 4vh;
+  color: white;
+}
+
+.centerBox {
+  text-align: center;
+  display: inline;
+  margin-top: 5vh;
+}
+.centerBox .l {
+  margin-right: 25vw;
+  color: wheat;
+}
+
+.contentBox {
+  min-width: 250px;
+  width: 100%;
+  text-align: left;
+}
+.contentBox h2 {
+  padding-left: 1vh;
+  color: wheat;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.contentBox .info h3 {
+  text-align: center;
+  color: white;
+}
+
+.card {
+  width: auto;
+  max-width: 20%;
+  min-width: 20em;
+  background-color: black;
+  text-align: center;
+  border: 2px solid white;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card a {
+  width: auto;
+  max-width: 20%;
+  height: 100%;
+}
+.card img {
+  width: 100%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+.navbar {
+  background-color: #0554A3;
+}
+.navbar a:hover {
+  background-color: #0399CC;
+}
+.navbar a.onPage {
+  background-color: #29B582;
+  color: white;
+}
+
+.head {
+  background-image: url("../assets/jci.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #000000;
+}
+.head h1 {
+  color: #0554A3;
+  background-color: rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(5px);
+  font-size: 6vh;
+}
+.head h2 {
+  color: #29B582;
+  font-size: 3vh;
+}
+
+.head {
+  background-color: white;
+  color: deepskyblue;
+}
+
+.page {
+  background-color: #29B582;
+}
+.page * {
+  margin-left: 1vw;
+}
+.page p {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.page h2 {
+  font-size: 2.8vh;
+}
+
+/*# sourceMappingURL=jci2.css.map */

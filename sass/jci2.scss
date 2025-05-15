@@ -1,0 +1,74 @@
+@import 'index';
+
+
+a{
+  color: white;
+  &:visited{
+    color: white;
+  }
+}
+
+
+.navbar{
+  background-color: #0554A3;
+
+  a{
+    &:hover{
+      background-color:#0399CC;
+    }
+
+    &.onPage{
+        background-color: #29B582;
+        color: white;
+    }
+  }
+}
+
+
+.head{
+  background-image: url("../assets/jci.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #000000;
+  
+  h1{
+    color: #0554A3;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+    font-size: 6vh;
+  }
+
+  h2{
+    color: #29B582;
+    font-size: 3vh;
+  }
+
+  
+}
+
+.head{
+  background-color: white;
+  color:deepskyblue;
+}
+
+
+.page{
+  background-color:#29B582;
+
+  *{
+    margin-left: 1vw;
+  }
+
+  p{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  h2{
+    font-size: 2.8vh;
+
+  }
+
+}
+
